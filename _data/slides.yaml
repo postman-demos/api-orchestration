@@ -1,0 +1,180 @@
+- caption_title: Postman Is An API Platform
+  caption_text: Where you can make requests to existing APIs and immedately be able to see and save the details of each response, working like our browsers, but for APIs.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 0
+  background_image: images/postman-client.png
+  tooltip_show: 1
+  tooltip_text: Requests
+  tooltip_width: 190px
+  tooltip_margin_top: 65px
+  tooltip_margin_left: 490px
+  tooltip_direction: left
+- caption_title: Name Your Requests
+  caption_text: Postman allows you to name your requests, providing a clear, human readable description of what each API request does, helping make each API request easy to find.
+  margin_margin_top: 500px
+  margin_right: 1
+  background_image: images/postman-client.png
+  tooltip_show: 1
+  tooltip_text: Edit Name
+  tooltip_width: 260px
+  tooltip_margin_top: 95px
+  tooltip_margin_left: 400px
+  tooltip_direction: left
+  caption_width: 30
+- caption_title: Set The HTTP Verb
+  caption_text: Defining the HTTP verb, allowing you to define GET, POST, and other common verbs that are used to perform different actions.
+  margin_margin_top: 500px
+  caption_width: 30
+  margin_right: 0
+  background_image: images/postman-client.png
+  tooltip_show: 1
+  tooltip_text: Verb
+  tooltip_width: 145px
+  tooltip_margin_top: 120px
+  tooltip_margin_left: 400px
+  tooltip_direction: left
+- caption_title: Define Path To API
+  caption_text: Set the host and path for each API request, defining the address being called with each API request being made via Postman.
+  margin_margin_top: 500px
+  caption_width: 30
+  margin_right: 0
+  background_image: images/postman-client.png
+  tooltip_show: 1
+  tooltip_text: Path
+  tooltip_width: 145px
+  tooltip_margin_top: 120px
+  tooltip_margin_left: 495px
+  tooltip_direction: left
+- caption_title: Manage Query Parameters
+  caption_text: Define what the query parameters are for an API, defining the keys value pairs that shouold be passed in with each API request.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 0
+  background_image: images/postman-parameters.png
+  tooltip_show: 1
+  tooltip_text: Parameters
+  tooltip_width: 205px
+  tooltip_margin_top: 134px
+  tooltip_margin_left: 380px
+  tooltip_direction: left
+- caption_title: Apply Authentication
+  caption_text: You are able to apply a variety of common authentication methods to each API request, accomodating the many different ways we secure APIs.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 0
+  background_image: images/postman-auth.png
+  tooltip_show: 1
+  tooltip_text: Authentication
+  tooltip_width: 255px
+  tooltip_margin_top: 155px
+  tooltip_margin_left: 445px
+  tooltip_direction: left
+- caption_title: Define Headers
+  caption_text: Crafting exactly the HTTP headers you need to get exactly the type of API request you need, providing full control over each individual request.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 0
+  background_image: images/postman-headers.png
+  tooltip_show: 1
+  tooltip_text: Headers
+  tooltip_width: 175px
+  tooltip_margin_top: 145px
+  tooltip_margin_left: 510px
+  tooltip_direction: left
+- caption_title: Control the Body
+  caption_text: Having full control over defining the body that is sent along with each request, posting data in a variety of formats to each API as part of a request.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 0
+  background_image: images/postman-body.png
+  tooltip_show: 1
+  tooltip_text: Body
+  tooltip_width: 145px
+  tooltip_margin_top: 165px
+  tooltip_margin_left: 540px
+  tooltip_direction: left
+- caption_title: Send Request
+  caption_text: Having full control over defining the body that is sent along with each request, posting data in a variety of formats to each API as part of a request.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 0
+  background_image: images/postman-client.png
+  tooltip_show: 1
+  tooltip_text: Send
+  tooltip_width: 125px
+  tooltip_margin_top: 120px
+  tooltip_margin_left: 990px
+  tooltip_direction: right
+- caption_title: See The Response
+  caption_text: View the API request response details in a machine readable way, allowing you to see the details of each response in its raw format, prettied up.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 0
+  background_image: images/postman-client.png
+  tooltip_show: 1
+  tooltip_text: Response
+  tooltip_width: 195px
+  tooltip_margin_top: 355px
+  tooltip_margin_left: 540px
+  tooltip_direction: left
+- caption_title: See As Different Formats
+  caption_text: You can choose to see the response in a variety of formats, allowing for the data to be displayed in whatever way you want as a consumer.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 0
+  background_image: images/postman-response-formats.png
+  tooltip_show: 1
+  tooltip_text: Formats
+  tooltip_width: 175px
+  tooltip_margin_top: 275px
+  tooltip_margin_left: 580px
+  tooltip_direction: left
+- caption_title: Save Response
+  caption_text: Then you can save response as an example, or locally to your local file system, giving you control over the data that is returned from an API request.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 0
+  background_image: images/postman-save-response.png
+  tooltip_show: 1
+  tooltip_text: Save
+  tooltip_width: 135px
+  tooltip_margin_top: 275px
+  tooltip_margin_left: 1020px
+  tooltip_direction: right
+- caption_title: Save Request
+  caption_text: Each individual response can be saved, allowing it to be used in the future, shared, and made available to anyone who is given access, making use of each request.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 0
+  background_image: images/postman-save-request.png
+  tooltip_show: 1
+  tooltip_text: Save
+  tooltip_width: 95px
+  tooltip_margin_top: 107px
+  tooltip_margin_left: 1080px
+  tooltip_direction: right
+- caption_title: Save As Collections
+  caption_text: You can choose to see the response in a variety of formats, allowing for the data to be displayed in whatever way you want as a consumer.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 0
+  background_image: images/postman-client.png
+  tooltip_show: 1
+  tooltip_text: Collections
+  tooltip_width: 175px
+  tooltip_margin_top: 220px
+  tooltip_margin_left: 205px
+  tooltip_direction: left
+- caption_title: Save Across Workspaces
+  caption_text: Organize your collections across different workspaces, helping keep your API requests organized in a meaningful way that allows them to be put to use.
+  margin_margin_top: 500px
+  caption_width: 40
+  margin_right: 0
+  background_image: images/postman-client.png
+  tooltip_show: 1
+  tooltip_text: Workspaces
+  tooltip_width: 175px
+  tooltip_margin_top: 19px
+  tooltip_margin_left: 730px
+  tooltip_direction: left
