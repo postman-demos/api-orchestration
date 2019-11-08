@@ -1,7 +1,7 @@
 # Postman API orchestration Demo
 A more advanced API orchestration using Postman.
 
-The demo can be viewed at: https://github.com/postman-demos/api-orchestration
+The demo can be viewed at: https://postman-demos.github.io/api-orchestration/
 
 YAML Slides - https://github.com/postman-demos/api-orchestration/blob/master/_data/slides.yaml
 
