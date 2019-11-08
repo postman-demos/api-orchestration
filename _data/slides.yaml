@@ -1,180 +1,181 @@
-- caption_title: Postman Is An API Platform
-  caption_text: Where you can make requests to existing APIs and immedately be able to see and save the details of each response, working like our browsers, but for APIs.
-  margin_margin_top: 500px
-  caption_width: 40
+- caption_title: Create New API
+  caption_text: Make API call to AWS API gateway with the details of the API to be created, publishig a single API to Amazon wit an API collection.
   margin_right: 0
-  background_image: images/postman-client.png
-  tooltip_show: 1
-  tooltip_text: Requests
-  tooltip_width: 190px
-  tooltip_margin_top: 65px
-  tooltip_margin_left: 490px
-  tooltip_direction: left
-- caption_title: Name Your Requests
-  caption_text: Postman allows you to name your requests, providing a clear, human readable description of what each API request does, helping make each API request easy to find.
+  caption_width: 40
+  caption_width: 40
   margin_margin_top: 500px
-  margin_right: 1
-  background_image: images/postman-client.png
+  background_image: images/postman-aws-1-create-apis.png
   tooltip_show: 1
-  tooltip_text: Edit Name
-  tooltip_width: 260px
+  tooltip_text: Request
+  tooltip_width: 160px
   tooltip_margin_top: 95px
-  tooltip_margin_left: 400px
+  tooltip_margin_left: 760px
   tooltip_direction: left
-  caption_width: 30
-- caption_title: Set The HTTP Verb
-  caption_text: Defining the HTTP verb, allowing you to define GET, POST, and other common verbs that are used to perform different actions.
-  margin_margin_top: 500px
-  caption_width: 30
+- caption_title: Create Models
+  caption_text: Make API call to AWS API gateway with the details of the API model, defining the underlying schema for the API.
   margin_right: 0
-  background_image: images/postman-client.png
+  caption_width: 40
+  margin_margin_top: 500px
+  background_image: images/postman-aws-2-create-models.png
   tooltip_show: 1
-  tooltip_text: Verb
-  tooltip_width: 145px
+  tooltip_text: Request
+  tooltip_width: 160px
+  tooltip_margin_top: 95px
+  tooltip_margin_left: 820px
+  tooltip_direction: left
+- caption_title: Create Resource
+  caption_text: Create a single resource, establishing the first path of the API, setting what API consumers will be calling with eqch request.
+  margin_right: 0
+  caption_width: 40
+  margin_margin_top: 500px
+  background_image: images/postman-aws-3-create-resource.png
+  tooltip_show: 1
+  tooltip_text: Request
+  tooltip_width: 160px
   tooltip_margin_top: 120px
-  tooltip_margin_left: 400px
+  tooltip_margin_left: 870px
   tooltip_direction: left
-- caption_title: Define Path To API
-  caption_text: Set the host and path for each API request, defining the address being called with each API request being made via Postman.
-  margin_margin_top: 500px
-  caption_width: 30
+- caption_title: Create Table
+  caption_text: Switch AWS API to create a table with DynamoDB, providing the backend data storage for the API being deployed to AWS API Gateway.
   margin_right: 0
-  background_image: images/postman-client.png
+  caption_width: 40
+  margin_margin_top: 500px
+  background_image: images/postman-aws-4-create-table.png
   tooltip_show: 1
-  tooltip_text: Path
-  tooltip_width: 145px
-  tooltip_margin_top: 120px
-  tooltip_margin_left: 495px
+  tooltip_text: Request
+  tooltip_width: 160px
+  tooltip_margin_top: 110px
+  tooltip_margin_left: 710px
   tooltip_direction: left
-- caption_title: Manage Query Parameters
-  caption_text: Define what the query parameters are for an API, defining the keys value pairs that shouold be passed in with each API request.
-  margin_margin_top: 500px
-  caption_width: 40
+- caption_title: Define Integration
+  caption_text: Back to using the AWS API Gateway API to make an API request to define the integration between AWS API Gateway and AWS DynamoDB.
   margin_right: 0
-  background_image: images/postman-parameters.png
+  caption_width: 40
+  margin_margin_top: 500px
+  background_image: images/postman-aws-5-integration.png
   tooltip_show: 1
-  tooltip_text: Parameters
-  tooltip_width: 205px
-  tooltip_margin_top: 134px
-  tooltip_margin_left: 380px
+  tooltip_text: Request
+  tooltip_width: 160px
+  tooltip_margin_top: 110px
+  tooltip_margin_left: 1000px
   tooltip_direction: left
-- caption_title: Apply Authentication
-  caption_text: You are able to apply a variety of common authentication methods to each API request, accomodating the many different ways we secure APIs.
-  margin_margin_top: 500px
-  caption_width: 40
+- caption_title: Define Integration Response
+  caption_text: Define the response that will be returned with the API call, providing the details of what will be returned, as well as each HTTP status code.
   margin_right: 0
-  background_image: images/postman-auth.png
-  tooltip_show: 1
-  tooltip_text: Authentication
-  tooltip_width: 255px
-  tooltip_margin_top: 155px
-  tooltip_margin_left: 445px
-  tooltip_direction: left
-- caption_title: Define Headers
-  caption_text: Crafting exactly the HTTP headers you need to get exactly the type of API request you need, providing full control over each individual request.
-  margin_margin_top: 500px
   caption_width: 40
-  margin_right: 0
-  background_image: images/postman-headers.png
-  tooltip_show: 1
-  tooltip_text: Headers
-  tooltip_width: 175px
-  tooltip_margin_top: 145px
-  tooltip_margin_left: 510px
-  tooltip_direction: left
-- caption_title: Control the Body
-  caption_text: Having full control over defining the body that is sent along with each request, posting data in a variety of formats to each API as part of a request.
   margin_margin_top: 500px
-  caption_width: 40
-  margin_right: 0
-  background_image: images/postman-body.png
+  background_image: images/postman-aws-6-integration-response.png
   tooltip_show: 1
-  tooltip_text: Body
-  tooltip_width: 145px
-  tooltip_margin_top: 165px
-  tooltip_margin_left: 540px
-  tooltip_direction: left
-- caption_title: Send Request
-  caption_text: Having full control over defining the body that is sent along with each request, posting data in a variety of formats to each API as part of a request.
-  margin_margin_top: 500px
-  caption_width: 40
-  margin_right: 0
-  background_image: images/postman-client.png
-  tooltip_show: 1
-  tooltip_text: Send
-  tooltip_width: 125px
-  tooltip_margin_top: 120px
-  tooltip_margin_left: 990px
-  tooltip_direction: right
-- caption_title: See The Response
-  caption_text: View the API request response details in a machine readable way, allowing you to see the details of each response in its raw format, prettied up.
-  margin_margin_top: 500px
-  caption_width: 40
-  margin_right: 0
-  background_image: images/postman-client.png
-  tooltip_show: 1
-  tooltip_text: Response
-  tooltip_width: 195px
-  tooltip_margin_top: 355px
-  tooltip_margin_left: 540px
-  tooltip_direction: left
-- caption_title: See As Different Formats
-  caption_text: You can choose to see the response in a variety of formats, allowing for the data to be displayed in whatever way you want as a consumer.
-  margin_margin_top: 500px
-  caption_width: 40
-  margin_right: 0
-  background_image: images/postman-response-formats.png
-  tooltip_show: 1
-  tooltip_text: Formats
-  tooltip_width: 175px
-  tooltip_margin_top: 275px
-  tooltip_margin_left: 580px
-  tooltip_direction: left
-- caption_title: Save Response
-  caption_text: Then you can save response as an example, or locally to your local file system, giving you control over the data that is returned from an API request.
-  margin_margin_top: 500px
-  caption_width: 40
-  margin_right: 0
-  background_image: images/postman-save-response.png
-  tooltip_show: 1
-  tooltip_text: Save
-  tooltip_width: 135px
-  tooltip_margin_top: 275px
+  tooltip_text: Request
+  tooltip_width: 160px
+  tooltip_margin_top: 110px
   tooltip_margin_left: 1020px
-  tooltip_direction: right
-- caption_title: Save Request
-  caption_text: Each individual response can be saved, allowing it to be used in the future, shared, and made available to anyone who is given access, making use of each request.
-  margin_margin_top: 500px
-  caption_width: 40
-  margin_right: 0
-  background_image: images/postman-save-request.png
-  tooltip_show: 1
-  tooltip_text: Save
-  tooltip_width: 95px
-  tooltip_margin_top: 107px
-  tooltip_margin_left: 1080px
-  tooltip_direction: right
-- caption_title: Save As Collections
-  caption_text: You can choose to see the response in a variety of formats, allowing for the data to be displayed in whatever way you want as a consumer.
-  margin_margin_top: 500px
-  caption_width: 40
-  margin_right: 0
-  background_image: images/postman-client.png
-  tooltip_show: 1
-  tooltip_text: Collections
-  tooltip_width: 175px
-  tooltip_margin_top: 220px
-  tooltip_margin_left: 205px
   tooltip_direction: left
-- caption_title: Save Across Workspaces
-  caption_text: Organize your collections across different workspaces, helping keep your API requests organized in a meaningful way that allows them to be put to use.
-  margin_margin_top: 500px
-  caption_width: 40
+- caption_title: Define API Keys
+  caption_text: Make an API call to create API keys that can be used by consumer to call the API being deployed, securing the resource.
   margin_right: 0
-  background_image: images/postman-client.png
+  caption_width: 40
+  margin_margin_top: 500px
+  background_image: images/postman-aws-7-api-keys.png
   tooltip_show: 1
-  tooltip_text: Workspaces
-  tooltip_width: 175px
-  tooltip_margin_top: 19px
-  tooltip_margin_left: 730px
+  tooltip_text: Request
+  tooltip_width: 160px
+  tooltip_margin_top: 130px
+  tooltip_margin_left: 740px
+  tooltip_direction: left
+- caption_title: Define Usage Plans
+  caption_text: Create usage plans that define how much of the resource can be consume, setting limits for what can be consumed.
+  margin_right: 0
+  caption_width: 40
+  margin_margin_top: 500px
+  background_image: images/postman-aws-8-usage-plans.png
+  tooltip_show: 1
+  tooltip_text: Request
+  tooltip_width: 160px
+  tooltip_margin_top: 130px
+  tooltip_margin_left: 770px
+  tooltip_direction: left
+- caption_title: Deploy API
+  caption_text: Now the API is ready for deployment into any pre-defined stage, publishing it to development, production, or other stage.
+  margin_right: 0
+  caption_width: 40
+  margin_margin_top: 500px
+  background_image: images/postman-aws-9-deployment.png
+  tooltip_show: 1
+  tooltip_text: Request
+  tooltip_width: 160px
+  tooltip_margin_top: 95px
+  tooltip_margin_left: 890px
+  tooltip_direction: left
+- caption_title: Update Environment
+  caption_text: Update the base URL for the API we have deployed, allowing us to make calls to the API, and see a response.
+  margin_right: 1
+  caption_width: 40
+  margin_margin_top: 500px
+  background_image: images/postman-aws-10-environment.png
+  tooltip_show: 1
+  tooltip_text: Base URL
+  tooltip_width: 200px
+  tooltip_margin_top: 210px
+  tooltip_margin_left: 910px
+  tooltip_direction: left
+- caption_title: Make Request
+  caption_text: Now we can call our new API and see a response, pulling data from DynamoDB, and making vailable via the new API.
+  margin_right: 0
+  caption_width: 40
+  margin_margin_top: 500px
+  background_image: images/postman-aws-11-request.png
+  tooltip_show: 1
+  tooltip_text: Request
+  tooltip_width: 160px
+  tooltip_margin_top: 130px
+  tooltip_margin_left: 600px
+  tooltip_direction: left
+- caption_title: Publish Documentation
+  caption_text: Now we can publish documentation for the new API, automatically generating API documentation that can be used by consumers.
+  margin_right: 0
+  caption_width: 40
+  margin_margin_top: 500px
+  background_image: images/postman-aws-12-publish-docs.png
+  tooltip_show: 1
+  tooltip_text: Publish
+  tooltip_width: 160px
+  tooltip_margin_top: 240px
+  tooltip_margin_left: 340px
+  tooltip_direction: left
+- caption_title: View Documentation
+  caption_text: View the API documentation that has been generated from the Postman collection, making it easy for consumers to on-board.
+  margin_right: 0
+  caption_width: 40
+  margin_margin_top: 500px
+  background_image: images/postman-aws-13-view-docs.png
+  tooltip_show: 0
+  tooltip_text: Create
+  tooltip_width: 160px
+  tooltip_margin_top: 110px
+  tooltip_margin_left: 460px
+  tooltip_direction: left
+- caption_title: Create Monitor
+  caption_text: Add a new monitor for keeping track of the availability and quality of the API deployed using the AWS API Gateway.
+  margin_right: 1
+  caption_width: 40
+  margin_margin_top: 500px
+  background_image: images/postman-aws-14-create-monitor.png
+  tooltip_show: 1
+  tooltip_text: Request
+  tooltip_width: 160px
+  tooltip_margin_top: 170px
+  tooltip_margin_left: 690px
+  tooltip_direction: left
+- caption_title: View Monitor Results
+  caption_text: See the results of the API monitor, staying in tune with the availablity of the API published, completing the delivery of the API.
+  margin_right: 0
+  caption_width: 40
+  margin_margin_top: 500px
+  background_image: images/postman-aws-16-view-monitor-results.png
+  tooltip_show: 0
+  tooltip_text: Request
+  tooltip_width: 160px
+  tooltip_margin_top: 110px
+  tooltip_margin_left: 460px
   tooltip_direction: left
