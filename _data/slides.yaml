@@ -162,7 +162,7 @@
   margin_margin_top: 500px
   background_image: images/postman-aws-14-create-monitor.png
   tooltip_show: 1
-  tooltip_text: Request
+  tooltip_text: Create
   tooltip_width: 160px
   tooltip_margin_top: 170px
   tooltip_margin_left: 690px
